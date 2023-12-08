@@ -17,8 +17,17 @@ Each line is a **json format item** with
 * section_name
 * sections
 
+Preprocessing : 对section内部的文本进行了一些删除
+
+1. 删除了 `\label`{sec:...} 内的内容
+2. 删除了 `\size{}`内的内容
+3. 
 
 ## Format of JP-NLP-Summarization
 
 To fit our task: Incremental summarization
-We did some sligt modification about abstract part
+We did some sligt modification about abstract part 
+
+
+
+## 一些关于latex语法的记录
