@@ -26,8 +26,9 @@ Preprocessing : 对section内部的文本进行了一些删除
    * 此外，对于 `\ref`引用了本表格的部分
      * 进行如下操作：表 `\ref{tab:fail}` 替换为 表 `[tab:fail]`
 5. 替换掉所有的 `\ref{...}`引用为 `[...]`
-6. 删除了所有脚注 `\footnote`
-7. 
+6. 删除了所有脚注 `\footnote \footnotemark \footnotetext`
+7. 删除了所有的标签 `\label`
+8. 
 
 ## Format of JP-NLP-Summarization-Incremental
 
