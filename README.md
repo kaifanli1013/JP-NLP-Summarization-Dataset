@@ -40,7 +40,10 @@ To fit our task: Incremental summarization
 
 We did some sligt modification about abstract part
 
-
 # TODO
 
 1. 删除每一列里的\n换行符
+2. 删除空行
+3. 删除{.underline} \underline
+4. 处理 这样的数据\begin{itemize}
+5. 删除了没有实验部分的文章和英文文章
