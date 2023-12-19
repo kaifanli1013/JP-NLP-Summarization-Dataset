@@ -40,10 +40,70 @@ To fit our task: Incremental summarization
 
 We did some sligt modification about abstract part
 
+## 虽然我们采用四段式进行分割，但实际上很多文章的行文风格不适合用四段式来进行划分
+
+intro的part包括了intro和先行研究
+
+method方法主要是本paper的提案
+
+result：如果考察在experiment章节就放在这里
+
+conclusion：如果考察单独是一个章节就放在这里
+
+删除了独立的案例分析和appendix章节
+
+删除了只有标注的paper
+
+例如关联研究往往会带来干扰，我们通常吧相关研究放在intro部分
+
 # TODO
 
 1. 删除每一列里的\n换行符
-2. 删除空行
-3. 删除{.underline} \underline
-4. 处理 这样的数据\begin{itemize}
-5. 删除了没有实验部分的文章和英文文章
+2. 如果考察单独是一个section那么就放到conclusion，否则下属于experiment的部分就不同
+3. 删除双$$的公式
+4. 删除::: center :::   ：：：table*
+5. ::: flashleft flashright
+6. 
+7. 删除\
+8. ：：：sent
+9. ：：：cond
+10. ：：：exe
+11. ：：：algorithm（ic）
+12. ::: iindent1zw
+13. ：：：xlist
+14. ::: lingexample
+15. {.underline}
+16. ：：：figure*
+17. ::: 簡体中文
+18. ：：：ex
+19. ：：：exB
+20. ：：：description
+21. ：：：itembox
+22. ：：：breakbox
+23. 删除**强调
+24. ：：：df
+25. ：：：enumerate
+26. ：：：screen
+27. 删除空行
+28. 删除{.underline} \underline
+29. 处理 这样的数据\begin{itemize}
+30. 删除了没有实验部分的文章和英文文章
+31. 更换网站网址@url
+
+::: savenotes
+
+::: center
+
+::: dependency
+
+::: deptext
+
+::: algorithm
+
+::: algorithmic
+
+:::
+
+::: algorithm
+
+::: algorithmic
