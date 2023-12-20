@@ -63,6 +63,7 @@ Each line is a **json format item** with
 
 * 首先删除换行符 \n
 * 删除::: 开头的一些文本
+
   * ::: sent
   * ::: center
   * ::: table*
@@ -88,8 +89,12 @@ Each line is a **json format item** with
   * ::: 簡体中文
 * 删除{.underline}和\underline
 * 删除\begin{enumerate} \end{enumerate}
+
   * 删除\item
 * 更换网址为@url
+* 同一替换为日语的逗号和句号
+
+基于
 
 ## Format of JP-NLP-Summarization-Incremental
 
